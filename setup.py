@@ -15,12 +15,12 @@ with open(path.join(current_dir, 'requirements.txt'), 'r') as f:
 setup(
     name='uci_dataset',
     version='0.0.7',
-    author='Maryam Bahrami',
-    author_email='maryami_66@yahoo.com',
+    author='Project Lightning',
+    author_email='aryam.bahrami@yahoo.ca',
     packages=['uci_dataset'],
-    url='https://github.com/maryami66/uci-dataset',
-    license='MIT',
-    description='Read UCI dataset without the need to download any file from an external website.',
+    url='https://github.com/ProjectLightningDev/web.py',
+    license='Boost Software License 1.0',
+    description='Read dataset without the need to download any file from an external website.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     setup_requires='numpy',
@@ -28,7 +28,7 @@ setup(
     keywords='uci dataset, toy dataset, public dataset',
     classifiers=[
         "Programming Language :: Python :: 3.9",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Boost Software License 1.0 License",
         "Operating System :: OS Independent"
     ],
     python_requires='>=3.6'
